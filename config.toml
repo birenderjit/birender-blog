@@ -1,0 +1,98 @@
+baseURL = "https://www.birenderjit.com/"
+languageCode = "en"
+title = "Birenderjit"
+DefaultContentLanguage = "en"
+theme = "hugo-coder"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+[params]
+    author = "Birenderjit Madan"
+    description = "Personal Site of Birenderjit"
+    info = "I enjoy building things and solving problems."
+    avatarurl = "images/profile.jpg"
+    keywords = "blog,developer,personal"
+    #favicon = "favicons/"
+    footercontent = "All views are my own."
+    customCss = []
+    customJs = []
+    mainSections = ["post"]
+    enableTwemoji = true
+    hideFooter = false
+    hideCredits = false
+    hideCopyright = false
+    since = 2020
+
+    dateformat = "January 2, 2006"
+
+    rtl = false
+
+    math = true
+
+    # Specify light/dark colorscheme
+    # Supported values:
+    # "auto" (use preference set by browser)
+    # "dark" (dark background, light foreground)
+    # "light" (light background, dark foreground) (default)
+    colorscheme = "auto"
+
+## Social links
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fa fa-linkedin fa-2x"
+    weight = 1
+    url = "https://www.linkedin.com/in/birenderjit/"
+
+[[params.social]]
+    name = "Github"
+    icon = "fa fa-github fa-2x"
+    weight = 2
+    url = "https://github.com/birenderjit/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fa fa-twitter"
+    weight = 3
+    url = "https://twitter.com/birenderjit/"
+
+[[params.social]]
+    icon = "fa fa-envelope"
+    title = "e-mail"
+    weight = 4
+    url = "mailto:birenderjit@gmail.com"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  weight = 1
+  identifier = "about"
+  url = "/about"
+
+  [[menu.main]]
+  name = "Blog"
+  weight = 2
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "Now"
+  weight = 3
+  identifier = "now"
+  url = "/now"
+
+  #[[languages.en.menu.main]]
+  #name = "Contact me"
+  #weight = 5
+  #url = "contact/"
