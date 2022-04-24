@@ -10,4 +10,4 @@ I am passionate about technology and enjoy learning and exploring new areas that
 
 In the past, I have worked on Bloomreach Experience manager. applicatiuon devlopment using perl, java, c, javascript etc. 
 
-I am enjoying learning and building with golang right now.
+I am enjoying learning and building with golang right now. Hopefully be able to work in golang full time.
